@@ -6,4 +6,4 @@ Add your files and commits, as you normally would:
 git add .
 git commit -m "First commit"
 Push your changes:
-git push -u origin master
+git push -u origin mastergit 
