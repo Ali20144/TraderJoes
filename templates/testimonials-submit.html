@@ -47,70 +47,7 @@
         </div>
     </nav>
 </div>
-
-
-<!---Testimonials  --->
-
-<div class="container">
-  <h1>Testimonials</h1>
-  <p>Share your experience of buying a car from Trader Joes with others.</p>
-  <blockquote>
-    <p>Staff are committed to give you first class service.</p>
-    <footer>John Smith</footer>
-  </blockquote>
-<blockquote>
-    <p>It is so nice to deal with a family business, where customer service is paramount, I will certainly recommend Trader Joes to friends and family</p>
-    <footer>Meagan Knight</footer>
-  </blockquote>
-<blockquote>
-    <p>I've always found lakeside cars to be a very good company to deal with and have purchased a couple of performance cars from them. Loving my Bentley GTC and I'm sure I'll see you guys in the winter to change cars</p>
-    <footer>Gary Parker</footer>
-  </blockquote>
-
-{% for (fname,lname,messagebox) in rows %}
-
-  <blockquote>
-    <p>{{messagebox}}</p>
-    <footer>{{fname}} {{lname}}</footer>
-  </blockquote>
-
-{% endfor %}
-</div>
-
-<div class="container">
-
-  <fieldset>
-    <legend>Submit your own testimonial!</legend>
-    <form id="newtestimonial" action="testimonial-submit">
-      
-      <div>
-        <label for="fname">First name</label>
-        <input type="text" class="form-control" id="fname" name="fname" placeholder="First name"></input>
-      </div>
-      
-      <div>
-        <label for="lname">Last name</label>
-        <input type="text" class="form-control" id="lname" name="lname" placeholder="Last name"></input>
-      </div>
-      
-      <div>
-        <label for="email">Email</label>
-        <input type="text" class="form-control" id="email" name="email" placeholder="Email"></input>
-      </div>
-      <div>
-        <label for="phone">Phone</label>
-        <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone"></input>
-      </div>
-      <div>
-        <label for="messagebox">Message</label>
-        <input type="text" class="form-control" id="messagebox" name="messagebox" placeholder="Message"></input>
-      </div>
-      <div>
-        <input type="submit" class="form-control btn btn-primary" value="Submit"></input>
-      </div>
-    </form>
-  </fieldset>
-</div>
+<h2>Thank you for your submission</h2>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
